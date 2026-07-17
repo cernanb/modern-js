@@ -1,7 +1,7 @@
-import { add, add2 } from "./add.js";
-import { multiply } from "./multiply.js";
-import { subtract } from "./subtract.js";
-import { divide } from "./divide.js";
+import { add, add2 } from "./calc-modules/add.js";
+import { multiply } from "./calc-modules/multiply.js";
+import { subtract } from "./calc-modules/subtract.js";
+import { divide } from "./calc-modules/divide.js";
 
 const result1 = add(10, 40, 60, 100, 200, 400);
 console.log(result1);
